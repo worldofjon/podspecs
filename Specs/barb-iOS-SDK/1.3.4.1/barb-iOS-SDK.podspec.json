@@ -9,12 +9,12 @@
     "text": "Copyright 2016 Kantar, Inc. All rights reserved."
   },
   "source": {
-    "git": "https://github.com/bbc/barb-clients/raw/cocoapods/ios/zip/spring-appstreaming-iOS-barb-1.3.4.1.zip"
+    "git": "https://github.com/bbc/barb-clients.git"
   },
   "platforms": {
     "ios": "6.0"
   },
   "requires_arc": false,
-  "source_files": "**/*.h",
-  "vendored_libraries": "**/spring-appstreaming-fat.a"
+  "source_files": "ios/spring-appstreaming-iOS-barb-1.3.4.1/*.h",
+  "vendored_libraries": "ios/spring-appstreaming-iOS-barb-1.3.4.1/spring-appstreaming-fat.a"
 }
