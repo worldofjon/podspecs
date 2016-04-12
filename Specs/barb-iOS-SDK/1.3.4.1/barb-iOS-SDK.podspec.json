@@ -10,6 +10,7 @@
   },
   "source": {
     "git": "https://github.com/bbc/barb-clients.git"
+    "branch": "cocoapods"
   },
   "platforms": {
     "ios": "6.0"
