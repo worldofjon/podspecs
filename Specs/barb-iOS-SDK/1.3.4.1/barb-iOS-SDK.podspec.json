@@ -9,7 +9,7 @@
     "text": "Copyright 2016 Kantar, Inc. All rights reserved."
   },
   "source": {
-    "git": "https://github.com/bbc/barb-clients.git"
+    "git": "https://github.com/bbc/barb-clients.git",
     "branch": "cocoapods"
   },
   "platforms": {
