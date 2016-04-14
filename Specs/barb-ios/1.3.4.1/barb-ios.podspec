@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "barb-iOS-SDK"
+  s.name         = "barb-ios"
   s.version      = "1.3.4.1"
   s.summary      = "Barb iOS library"
   s.description  = <<-DESC
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Copyright", :text => "Copyright 2016 Kantar, Inc. All rights reserved." }
   s.author       = { "Kantar" => "contact@kantarmedia.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/bbc/barb-clients.git", :branch => "cocoapods" }
+  s.source       = { :git => "https://github.com/bbc/barb-clients.git" }
   s.source_files  = "ios/spring-appstreaming-iOS-barb-#{s.version}/headers/*.h"
   s.vendored_libraries = "ios/spring-appstreaming-iOS-barb-#{s.version}/libSpring.a"
 end
